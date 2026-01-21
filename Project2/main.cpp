@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip> 
-
+#include "L_iomanip.h"
 
 int main()
 {
@@ -17,6 +17,11 @@ int main()
 	std::cout << "圆球表面积 :" << 4 * Pi * r * r << std::endl;
 	std::cout << "圆球体积   :" << 4 * Pi * r * r * r / 3 << std::endl;
 	std::cout << "圆柱体积   :" << Pi * r * r * h << std::endl;
+
+	fun1();
+	fun2();
+	fun3();
+	fun4();
 
 	return 0;
 }
